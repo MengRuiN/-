@@ -1,1 +1,15 @@
-
+习题2-3 倒三角形
+#include<stdio.h>
+int main()
+{
+  int x, y, n;
+  scanf("%d", &n);
+  for(int i=0; n>0; n--)
+  {
+    for(int j=n; j>0; j--)
+    {
+      printf("*");
+    }
+    printf(" ");
+  }
+}
